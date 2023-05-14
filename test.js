@@ -1,9 +1,11 @@
 const asciify = require("asciify-image")
  
-asciify("ppjulien.jpg", {fit: 'box', width: 50, height: 50})
+asciify("rickAstley.png", {fit: 'box', width: 200, height: 200})
 .then(result => {
     console.log(result)
 })
 .catch(err => {
     console.error(err)
 })
+
+//executer node test.js

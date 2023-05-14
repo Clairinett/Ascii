@@ -1,9 +1,9 @@
 #https://github.com/GravenilvecTV/ASCIIArt
 
-from PIL import Image
+from ascii_magic import Image
 
-with Image.open("ppjulien.jpg").convert("RGB") as Image: #.convert("RGB") rajouter suite à erreur int non intenable
-    Image = Image.resize((40, 60))
+with Image.open("rickAstley.png").convert("RGB") as Image: #.convert("RGB") rajouter suite à erreur int non intenable
+    Image = Image.resize((100, 100))
 
 ascii_char = ' .-~=+£@$%§'
 
@@ -16,4 +16,4 @@ for y in range(Image.height):
         line += ascii_char[index] + "  "
     print(line)
 
-#écrire dans le terminal  py test.py
+#execute  py test.py
