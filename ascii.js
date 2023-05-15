@@ -1,17 +1,11 @@
-const asciify = require('asciify-image');
+const asciify = require("asciify-image")
+ 
+asciify("zebre.jpg", {fit: 'box', width: 100, height: 100})
+.then(result => {
+    console.log(result)
+})
+.catch(err => {
+    console.error(err)
+})
 
-const options = {
-  fit:    'box',
-  width:  50,
-  height: 50
-}
-
-asciify('path/to/image.png', options)
-  .then(function (asciified) {
-    // Print asciified image to console
-    console.log(asciified);
-  })
-  .catch(function (err) {
-    // Print error to console
-    console.error(err);
-  });
+//executer node test.js

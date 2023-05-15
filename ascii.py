@@ -16,4 +16,4 @@ for y in range(Image.height):
         line += ascii_char[index] + "  "
     print(line)
 
-#execute  py test.py
+#execute  py ascii.py
