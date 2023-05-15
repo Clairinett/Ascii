@@ -1,4 +1,5 @@
 # Ascii Art
+![image](https://github.com/Clairinett/Ascii/assets/123460185/dc8195b6-0d05-43fe-b00d-cb5fb5b7268d)
 
 
 ## Pré-requis pour python
@@ -38,3 +39,5 @@ Problème de module, verifiez que vous avez installer le bon module.
 ## Autre 
   
 Les grandes tailles rendent mieux en ascii :)
+
+  ![image](https://github.com/Clairinett/Ascii/assets/123460185/0018f531-25cf-47ac-9e68-e5e8c1df873b)
